@@ -1,4 +1,6 @@
 Due to Github restriction on size limit of 25MB, the data files with the following folder structure is uploaded to the USF Box folder.
+
+The folder generate1 is the main dataset:
 1.folder: generate1
 
 1a. subfolder: training_set
@@ -14,3 +16,6 @@ Due to Github restriction on size limit of 25MB, the data files with the followi
 
 USF BOX URL for the data zipped file:
 https://usf.box.com/s/c15l4pmatcqx82kp3jjap7kvaci8q1yf
+
+The folders ourd and ourd1 are uploaded to Github. They contain Walmart and Publix receipts that were tried in first and second iteration.
+These datasets (ourd and ourd1) have small dataset
