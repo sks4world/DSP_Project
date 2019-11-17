@@ -1,0 +1,16 @@
+Due to Github restriction on size limit of 25MB, the data files with the following folder structure is uploaded to the USF Box folder.
+1.folder: generate1
+
+1a. subfolder: training_set
+1a0i. sub-subfolder: Milk (1000 image files)
+1aii. sub-subfolder: NoMilk (1000 image files)
+
+2a. subfolder: test_set
+2a0i. sub-subfolder: Milk (300 image files)
+2aii. sub-subfolder: NoMilk (300 image files)
+
+3a. subfolder: prediction_set 
+3ai. sub-subfolder: predict_me
+
+USF BOX URL for the data zipped file:
+https://usf.box.com/s/c15l4pmatcqx82kp3jjap7kvaci8q1yf
