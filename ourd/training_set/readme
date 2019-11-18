@@ -1,4 +1,4 @@
 This folder contains images classified as Walmart Receipts and Publix receipts.
 The initial version of the program just did a simple thing of identifying whether a receipt is Walmart receipt or Publix receipt.
 
-The image files from ourd.zip is to be extracted into this folder.
+The image files from ourd.zip training set folder is to be extracted into this folder.
