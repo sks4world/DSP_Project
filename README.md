@@ -22,10 +22,10 @@ Notebook2 "Project_Model.ipynb":
     Part 2: Classify receipts as Milk or NoMilk depending on whether MILK is present in the receipt. This uses dataset in folder /ourd1
     Part 3: Augment data to 2000 images and fit CNN model on this data set to classify receipts as Milk or NoMilk. This uses dataset in folder /generate
     Part 4: Future work identified through the related papers. The code is identified to run in future which has classes to recognize text and identify text. This reads effectively from text in any orientation/curving.
-    
-     We can change the hyperparameters and also data to increase accuracy. Currecnt accuracy after all epoches have run is 62%
+    We can change the hyperparameters and also data to increase accuracy. Currecnt accuracy after all epoches have run is 62%
 
-Yet to do: Data preprocessing gives the cropped image with bounding boxes. But its not fed to cnn model. We have to find ways to feed images from preprocessing step to model step
+Future work: 
+    Data preprocessing gives the cropped image with bounding boxes. But its not fed to cnn model. We have to find ways to feed images from preprocessing step to model step
 
 Directions to run the code: step1: For datapreprocessing please run the file data_preprocessing.ipynb file: It does following functionaities: Files uploaded into the raw_images will be cropped and saved into the processed files. You can try out by adding receipt files to the raw_images folder(Receipt need to have 4 corners) Runs the photocrop.py to get the core areas of the receipt and saves them to processed folder. This methodology is implemented for cleaning data files and feeding it to next steps in the pipeline(Data Augmentation) Step2: Run the project_model.ipynb file to run different models by augmenting the dataset.(please change the number of files to be generated for generating different amount of data and split the dataset to train and test and mentioned in the comments, default is set to 1 ).
 
