@@ -1,0 +1,4 @@
+This folder contains images classified as with Milk Receipts and without Milk receipts.
+The second version of the program did an improved thing of identifying whether a receipt has Milk or NoMilk.
+
+The image files from ourd1.zip training_set folder is to be extracted into this folder.
