@@ -25,7 +25,7 @@ Notebook2 "Project_Model.ipynb":
     We can change the hyperparameters and also data to increase accuracy. Currecnt accuracy after all epoches have run is 62%
 
 Future work: 
-    Data preprocessing gives the cropped image with bounding boxes. But its not fed to cnn model. We have to find ways to feed images from preprocessing step to model step
+    Data preprocessing gives the cropped image with bounding boxes. But its not fed to cnn model. We have to find ways to feed images from preprocessing step to model step. (This also explains the reason for two different ipynb files that don't yet feed into the other)
 
 Directions to run the code: step1: For datapreprocessing please run the file data_preprocessing.ipynb file: It does following functionaities: Files uploaded into the raw_images will be cropped and saved into the processed files. You can try out by adding receipt files to the raw_images folder(Receipt need to have 4 corners) Runs the photocrop.py to get the core areas of the receipt and saves them to processed folder. This methodology is implemented for cleaning data files and feeding it to next steps in the pipeline(Data Augmentation) Step2: Run the project_model.ipynb file to run different models by augmenting the dataset.(please change the number of files to be generated for generating different amount of data and split the dataset to train and test and mentioned in the comments, default is set to 1 ).
 
