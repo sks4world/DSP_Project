@@ -9,7 +9,7 @@ The project repository contains the following:
 4. Project description Video
 5. Data files used for machine learning (posted to Box account due to large folder size and link provided in github)
 
-The path in the ipynb file is made generic to execute from another jupyter notebook environment. However, the file_path variable has to be set to the location where the data files are kept
+The path in the ipynb file is made generic to execute from another jupyter notebook environment. 
 
 This project scans the receipts and classifies as publix or walmart receipts and Milk or Non-Milk Receipts.
 
