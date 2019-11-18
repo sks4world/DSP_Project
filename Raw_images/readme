@@ -1,0 +1,2 @@
+Any image can be placed in this folder. The images placed in this folder are read by the data pre-processing program.
+Data pre-processing program does tasks like identifying contour, bounding boxes etc
