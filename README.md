@@ -13,9 +13,17 @@ The path in the ipynb file is made generic to execute from another jupyter noteb
 
 This project scans the receipts and classifies as publix or walmart receipts and Milk or Non-Milk Receipts.
 
-Notebook1 "Data Pre-processing.ipynb": Preprocessing- This file adds gaussian blur and finds the edges and crops the image from its background.Also it adds bounding boxes around he text which makes easy for cnn to identify text. Needs pyimagesearch folder for dependencies. Other dependencies have to be installed using pi(few are specified in notebook)
+Notebook1 "Data Pre-processing.ipynb": 
+    Preprocessing- This file adds gaussian blur and finds the edges and crops the image from its background.Also it adds bounding boxes around he text which makes easy for cnn to identify text. Needs pyimagesearch folder for dependencies. Other dependencies have to be installed using pi(few are specified in notebook)
 
-Notebook2 "Project_Model.ipynb": This file has the cnn model building steps with Keras. We can change the hyperparameters and also data to increase accuracy. Currecnt accuracy after all epoches have run is 62%
+Notebook2 "Project_Model.ipynb": 
+    This file has the cnn model building steps with Keras. It is divided into four parts as follows:
+    Part 1: Basic CNN Deep learning to classify receipt as Walmart or Publix (as step 1). This uses dataset in folder /ourd
+    Part 2: Classify receipts as Milk or NoMilk depending on whether MILK is present in the receipt. This uses dataset in folder /ourd1
+    Part 3: Augment data to 2000 images and fit CNN model on this data set to classify receipts as Milk or NoMilk. This uses dataset in folder /generate
+    Part 4: Future work identified through the related papers. The code is identified to run in future which has classes to recognize text and identify text. This reads effectively from text in any orientation/curving.
+    
+     We can change the hyperparameters and also data to increase accuracy. Currecnt accuracy after all epoches have run is 62%
 
 Yet to do: Data preprocessing gives the cropped image with bounding boxes. But its not fed to cnn model. We have to find ways to feed images from preprocessing step to model step
 
